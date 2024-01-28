@@ -1,0 +1,55 @@
+[
+    {
+      "id": 1,
+      "coordinates": [56, 45],
+      "title": "Het strand",
+      "difficulty": 3,
+      "explanation": "Een mooi gedicht geschreven over het water",
+      "text": "Ontdek de serene schoonheid van het strand, een oase van kalmte. Het geluid van golven die zachtjes op de kustlijn kabbelen, creëert een vredige sfeer. Bezoekers komen hier om te ontspannen, te zonnen en te genieten van de natuurlijke pracht, terwijl ze de dagelijkse drukte achter zich laten.",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "question": "Wat is de belangrijkste reden waarom mensen het strand bezoeken?",
+          "options": ["Ontspanning", "Zwemmen", "Zonnebaden"],
+          "answer": "Ontspanning"
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Hoe verandert het strand gedurende de seizoenen?",
+          "options": ["Meer bezoekers in de zomer", "Verandert niet veel", "Wordt kouder in de winter"],
+          "answer": "Meer bezoekers in de zomer"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "coordinates": [67, 55],
+      "title": "De waterval",
+      "difficulty": 5,
+      "explanation": "Informatieve tekst over een waterval",
+      "text": "De waterval is een natuurwonder, waar water met kracht en elegantie naar beneden stort. Omgeven door weelderig groen en rotsformaties, biedt de waterval een spektakel van schoonheid en kracht. Het geluid van het vallende water vormt een rustgevend achtergrondgeluid, terwijl de nevel die door de lucht zweeft een verfrissend gevoel geeft. De waterval trekt avonturiers en natuurliefhebbers aan die de omliggende paden verkennen en genieten van het uitzicht. Elk seizoen brengt een unieke charme, van de bruisende stromen in de lente tot het bevroren wonder in de winter.",
+      "questions": [
+        {
+          "type": "open_answer",
+          "question": "Wat is de grootste waterval ter wereld?",
+          "answer": "Niagara waterfal"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "coordinates": [44, 77],
+      "title": "In de vallei",
+      "difficulty": 2,
+      "explanation": "Een korte anekdote",
+      "text": "Verscholen in de vallei vind je een ongerepte wereld van natuurlijke schoonheid. Dit uitgestrekte gebied, rijk aan flora en fauna, is een paradijs voor wandelaars en natuurliefhebbers. De vallei, omgeven door majestueuze bergen, biedt een panoramisch uitzicht dat adembenemend is in elk seizoen. In de lente komt de vallei tot leven met een explosie van wilde bloemen, terwijl in de zomer de zon het landschap verlicht en de beekjes en rivieren vol leven zijn. De herfst brengt een kleurrijke verandering met rood en goud kleurende bladeren, en in de winter wordt de vallei een stille, vredige plek, bedekt met een deken van sneeuw. De lokale fauna, van vogels tot kleinere zoogdieren, is een genot om te observeren. Bezoekers kunnen genieten van picknicken, vogelspotten, of gewoon ontspannen en de rustige sfeer in zich opnemen. De vallei vertelt het verhaal van de natuur en haar seizoenen, een verhaal dat blijft boeien en verrassen.",
+      "questions": [
+        {
+          "type": "mark_question",
+          "question": "markeer alle lidwoorden",
+          "answer": ["de", "het", "een"]
+        }
+      ]
+    }
+  ]
+  

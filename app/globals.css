@@ -105,3 +105,52 @@ a {
     color-scheme: dark;
   }
 }
+
+#poi-modal-title {
+  color: black;
+}
+
+.modal {
+  color: black;
+}
+
+.difficulty_stars {
+  color: gold;
+}
+
+.main_text {
+  color: black;
+}
+
+.text_question {
+  color: black;
+}
+
+.markedTextContainer {
+  max-width: 800px;
+  border-radius: 10px;
+  color: black;
+  padding: 25px;
+  border: 1px solid #000;
+  margin: auto; 
+  word-break: break-word;
+}
+
+.submit_button {
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.canvas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+}
+
