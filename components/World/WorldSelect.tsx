@@ -12,11 +12,24 @@ const worlds = [
   },
 ];
 
+const NumberedCircle = ({ position, number, onClick }) => {
+  return (
+    <mesh position={position} onClick={onClick}>
+      <circleGeometry args={[0.1, 32]} />
+      <meshBasicMaterial color="blue" />
+    </mesh>
+  );
+};
+
 const WorldSphere = () => {
   const earthTexture = useLoader(
     TextureLoader,
     "/assets/images/worldTexture.png"
   );
+
+  const handleCircleClick = (number) => {
+    console.log(`Clicked on circle ${number}`);
+  };
 
   const SetupCamera = () => {
     const { camera } = useThree();
@@ -31,7 +44,7 @@ const WorldSphere = () => {
 
   return (
     <div className="container">
-      <h1>Selecteer een leeswereld</h1>
+      <h1>Lees wereld</h1>
       <div className="canvas-container">
         <Canvas>
           <Suspense fallback={<div>Loading...</div>}>
@@ -43,6 +56,15 @@ const WorldSphere = () => {
               <sphereGeometry args={[2, 64, 64]} />
               <meshStandardMaterial map={earthTexture} />
             </Sphere>
+            {worlds.map((world) => (
+              <group key={world.id}>
+                <NumberedCircle
+                  position={[1, 0, 0]}
+                  number={1}
+                  onClick={() => handleCircleClick(1)}
+                />
+              </group>
+            ))}
           </Suspense>
         </Canvas>
       </div>
